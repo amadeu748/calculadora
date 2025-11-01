@@ -8,7 +8,7 @@ class Calculator {
     this.currentOperationText = currentOperationText;
     this.currentOperation = "";
   }
-
+  //casa
   // add digit to calculator screen
   addDigit(digit) {
     console.log(digit);
