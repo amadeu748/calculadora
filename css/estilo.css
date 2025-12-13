@@ -16,6 +16,7 @@ body {
 #calc {
   width: 400px;
   padding: 0.5em;
+  border-radius: 10px;
   background-color: #c4c4c4;
   color: #000;
   display: flex;
@@ -23,18 +24,19 @@ body {
 }
 
 #calc h3 {
-  font-size: 0.8em;
+  font-size: 1em;
+  font-weight: bold;
   font-weight: 300;
   color: #666;
 }
 
 #operations {
-  text-align: right;
+  text-align: right;  
 }
 
 #previous-operation {
-  color: #777;
-  padding: 0.2em;
+  color: black;
+  padding: 1em;
   overflow-wrap: break-word;
   min-height: 1.6em;
 }
@@ -55,7 +57,7 @@ body {
 
 #buttons-container button {
   border: 1px solid transparent;
-  border-radius: 0;
+  border-radius: 5px;
   height: 4em;
   font-size: 1.2em;
   background-color: #dbdbdb;
